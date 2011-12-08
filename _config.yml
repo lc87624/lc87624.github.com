@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://lc87624.github.com
+title: 哥墨迹の宅基地
+subtitle: 努力成为一名技术宅！
+author: 哥墨迹
 simple_search: http://google.com/search
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
