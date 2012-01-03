@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: test | 哥墨迹の宅基地]]></title>
+  <link href="http://lc87624.github.com/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://lc87624.github.com/"/>
+  <updated>2012-01-03T23:19:10+08:00</updated>
+  <id>http://lc87624.github.com/</id>
+  <author>
+    <name><![CDATA[哥墨迹]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress这玩意儿上手还挺难的嘛]]></title>
+    <link href="http://lc87624.github.commy-first-post"/>
+    <updated>2012-01-03T22:34:00+08:00</updated>
+    <id>http://lc87624.github.com./my-first-post</id>
+    <content type="html"><![CDATA[<p>今天心血来潮，想把<a href="http://lc87624.iteye.com/">iteye</a>上少的可怜的几篇文章迁到这个blog上来。谁知道，打开octopress的文档一看，各种配置看得眼花缭乱，看来迁移成本不低啊。。。
+不过想好的事还是要做，先发个纯文本的处女文测试一下吧。</p>
+
+<p>大致看了一下<a href="http://octopress.org/docs/blogging/">"Blogging Basics"</a>，虽然octopress提供了一些方便的命令和模板，但出于灵活配置的考虑，还是有很多配置选项,第一眼看去的确是有点晕。基本上，octopress的配置都是基于<a href="http://en.wikipedia.org/wiki/YAML">yaml</a>格式的，生成的每篇post的顶部都会有一个被称为<a href="">"yaml front matter"</a>的配置区块，里面能够设定本篇文章的标题、类别、固定URL等等，貌似还可以自定义一些变量，在模板渲染时使用，很强大。不过关于模板我还没有开始了解，等有空再仔细看看，今天先记下那么多吧。估计，要想比较自由的写博文，后续还必须熟悉<a href="http://markdown.tw/">markup</a>的语法之类的，任重道远，囧。。。</p>
+]]></content>
+  </entry>
+  
+</feed>
