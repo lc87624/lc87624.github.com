@@ -4,7 +4,7 @@
   <title><![CDATA[哥墨迹の宅基地]]></title>
   <link href="http://lc87624.github.com/atom.xml" rel="self"/>
   <link href="http://lc87624.github.com/"/>
-  <updated>2012-01-05T22:44:15+08:00</updated>
+  <updated>2012-01-06T00:05:10+08:00</updated>
   <id>http://lc87624.github.com/</id>
   <author>
     <name><![CDATA[哥墨迹]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[总算是给blog起上名了]]></title>
+    <link href="http://lc87624.github.comthe-damn-domain"/>
+    <updated>2012-01-05T23:05:00+08:00</updated>
+    <id>http://lc87624.github.com./new-post</id>
+    <content type="html"><![CDATA[<p>昨晚在<a href="www.name.com">Name.com</a>上注册了个域名：gemoji.me，打算把这个blog绑到上面，今天折腾了一天才总算初步完成。
+由于一直没有上过网络基础方面的课程，自己平时也偏向于学习应用型的技能，忽略了很多基础知识的补习，连什么是CNAME记录和A记录都不知道。
+照着<a href="http://octopress.org/docs/deploying/github/#custom_domains">octopress</a>和<a href="http://pages.github.com/#custom_domains">github pages</a>的文档折腾了半天，一直没有成功。
+我在DNS设置里添加了两条CNAME记录(blog.gemoji.me和www.gemoji.me)指向我的github page(<a href="lc87624.github.com">lc87624.github.com</a>),然后在octopress的source分支里添加了CNAME文件，文件里存有上面写的那两个二级域名。期望的结果是blog.gemoji.me和www.gemoji.me这两个域名都能正确跳转，可结果是两个域名的确都能跳转，但都是跳往github的错误页面，提示“页面不存在”。
+在网上各种搜，还是没能解决，于是在<a href="http://stackoverflow.com/questions/8738250/how-can-i-custom-domains-for-my-github-page">stack overflow</a>上提问,最后被一位杭州的同学提醒，原来我只把CNAME文件push到了source分支，并没有重新generate和deploy整个blog，master分支里找不到CNAME文件。
+重新deloy之后，发现只有一个域名能正确跳转，另一个还是跳去错误页面，没办法只好只保留了blog.gemoji.me。
+遗留的问题包括：
+1. 直接输入<a href="lc87624.gihub.com">lc87624.github.com</a>的话，不会跳转到新的域名上。
+2. 只能绑定一个二级域名，但又不想将*.gemoji.me全都指向blog。</p>
+
+<p>PS:在网上问问题找答案其实是个很有意思的过程，你会发现有很多人在做和你一样的事，而且比你做的好很多。这个blog是我在解决问题的过程里发现的：<a href="http://chen.yanping.me/cn/">chen.yanping.me/cn</a>和<a href="">，博主貌似是人大统计学的学生，从博文看貌似不是做技术的，但却做到了很多我这个技术人做不到的事，实在是汗颜。
+还有在stack overflow上回答我问题的同学，貌似是杭州的一名大学生，两个人却要用英语沟通也算是有意思的事。
+不早了，该睡觉了。。。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress这玩意儿上手还挺难的嘛]]></title>
